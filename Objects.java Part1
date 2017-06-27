@@ -1,55 +1,21 @@
-
-
-/**
- * @author Nadhif
- *
- */
-
 public class Objects {
-	
-	private String color;
-	
-	
-	//This is a constructor(initializing values)
-	
-	//Default Constructors
-	Objects(){
-	this.setColor("Blue");
+	private String name;
+	private int age;
+
+	Objects(String names){
+		this.name = names;
 	}
 
-	//Constructor with parameters
-	Objects(String warna){
-	color = warna;	
+	public int getAge(){
+		return age;
 	}
 
-
-	public void setColor(String colours) {
-		this.color = colours;
+	public void setAge(int x){
+		this.age = x;
 	}
 
-	public String getColor(){
-		return color;
+	public String getName() {
+		return name;
 	}
-
 
 }
-	
-	//Getting a color
-	
-	/*public String getColor(){
-		return color;		
-	}*/
-	
-	/*Setting a color
-	public void setColor(String colors){
-		this.color = colors;*/
-	
-	
-	
-	
-	
-
-	
-	
-	
-
