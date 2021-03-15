@@ -1,3 +1,3 @@
-# JavaCodes
+# Java Project 
 
-In here, i use VCS to control my codes.
+This is a repository in learning the concept using Java
